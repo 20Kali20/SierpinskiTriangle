@@ -7,7 +7,7 @@ screen = pygame.display.set_mode((1000,860))
 screen.fill('white')
 triangle = [[500, 0], [0, 860], [1000, 860]]
 start = [50, 10]
-for x in range(20000):
+for x in range(2000000):
     pygame.draw.circle(screen, 'black', (start[0], start[1]), 1)
     pygame.display.update()
     corner = random.randint(0, 2)
